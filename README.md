@@ -1,4 +1,6 @@
 # ParentGroupSelector
+Plugin for Pytha26 3D CAD software.
+
 Adds two selectors: 
 * Parent Group - Selects parent groups of the currently selected elements
 * Front Names - Selects groups matching a given name
