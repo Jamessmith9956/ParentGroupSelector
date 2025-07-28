@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff srcLang="en-US" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="main.lua">
+    <unit id="01813eef66a85b2c">
+      <segment>
+        <source>Part Selection - Front Group Settings</source>
+      </segment>
+    </unit>
+    <unit id="3073bf138ac56d73">
+      <segment>
+        <source>default selection name: </source>
+      </segment>
+    </unit>
+    <unit id="7ae69c26f3c66828">
+      <segment>
+        <source>Add New Name</source>
+      </segment>
+    </unit>
+    <unit id="5b6a80cdda5c140f">
+      <segment>
+        <source>Add New Front Group Name</source>
+      </segment>
+    </unit>
+    <unit id="2cc56ded7d88b0a6">
+      <segment>
+        <source>Enter new front group name:</source>
+      </segment>
+    </unit>
+    <unit id="1e60d4c5074f7115">
+      <segment>
+        <source>select front groups by name</source>
+      </segment>
+    </unit>
+    <unit id="2dab3e79dbf07970">
+      <segment>
+        <source>Get Parent Group</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

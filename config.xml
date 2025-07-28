@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://xmlns.pytha.com/plugin_config/1.0">
+  <header>
+    <guid>36049758-ea7e-4d88-bab0-9ee672df5b68</guid>
+    <version>1.0</version>
+    <pytha-version>26.0</pytha-version>
+    <name>Part-Selector-ParentGroup</name>
+    <description>The description of your plugin goes here.</description>
+    <licensing>Information about the licensing terms goes here.</licensing>
+  </header>
+  <extension type="part-selector">
+    <entry-point>select_parent_groups</entry-point>
+    <caption>Parent Group</caption>
+    <description>Select the parent groups of the currently selected parts.</description>
+  </extension>
+  <extension type="part-selector">
+    <entry-point>select_front_groups</entry-point>
+    <caption>Fronts by Name</caption>
+    <description>Select the groups/parts matching a given name.</description>
+  </extension>
+  <extension type="function">
+    <entry-point>main</entry-point>
+    <caption>Front Group Names</caption>
+    <description>Set default names for front groups.</description>
+    <help-file>help.html</help-file>
+  </extension>
+</plugin>

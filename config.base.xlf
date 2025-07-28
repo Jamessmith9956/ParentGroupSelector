@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff srcLang="en-US" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="config.xml">
+    <unit id="56b5980e28065be5">
+      <segment>
+        <source>Part-Selector-ParentGroup</source>
+      </segment>
+    </unit>
+    <unit id="159d346d509b3d05">
+      <segment>
+        <source>The description of your plugin goes here.</source>
+      </segment>
+    </unit>
+    <unit id="3e330a51c3cab542">
+      <segment>
+        <source>Select Parent Groups</source>
+      </segment>
+    </unit>
+    <unit id="4d5ecf9dd803c5d5">
+      <segment>
+        <source>Select the parent groups of the currently selected parts.</source>
+      </segment>
+    </unit>
+    <unit id="631de008a3c9a545">
+      <segment>
+        <source>Front Replacement Groups</source>
+      </segment>
+    </unit>
+    <unit id="1fa0ecdf3075eed4">
+      <segment>
+        <source>Select the groups/parts matching a given name.</source>
+      </segment>
+    </unit>
+    <unit id="23c5c77b81d31ad4">
+      <segment>
+        <source>Front group names</source>
+      </segment>
+    </unit>
+    <unit id="3fb09115a1d3c38b">
+      <segment>
+        <source>Set default names for front groups.</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>
