@@ -22,7 +22,7 @@ function select_parent_groups(selection)
         if not match(parent_groups, parent_group) then
             table.insert(parent_groups, parent_group)
         end
-        table.remove(selection)
+        table.remove(selection, i)
         i, group = next(selection)
     end
     while #selection > 0 do
