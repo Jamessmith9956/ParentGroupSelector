@@ -59,6 +59,7 @@ function front_settings_dialog(dialog_handle, is_new_name)
     dialog_handle:create_label(1, pyloc "default selection name: ")
     local combo = dialog_handle:create_combo_box(2, front_group_names[1] or "")
     local add_btn = dialog_handle:create_button({1,2}, pyloc "Add New Name")
+    local clear_names_btn = dialog_handle:create_button({1,2}, pyloc "Clear Names")
     dialog_handle:create_ok_button(1)
     dialog_handle:create_cancel_button(2)
 
@@ -100,7 +101,32 @@ function front_settings_dialog(dialog_handle, is_new_name)
                 combo:set_control_selection(#front_group_names)
             end
         end
+        clear_names_btn:enable_control(true)
     end)
+    --- Ask for confirmation from the user, then clear the front group names and save_values
+    clear_names_btn:set_on_click_handler(function ()
+        local result = pyui.run_modal_subdialog(function (dialog_handle)
+            dialog_handle:set_window_title(pyloc "Clear Front Group Names")
+            dialog_handle:create_label({1,2}, pyloc "Are you sure you want to permanently clear all front names from the combo box?")
+            dialog_handle:create_ok_button(1)
+            dialog_handle:create_cancel_button(2)
+        end)
+        if result == "ok" then
+            front_group_names = {}
+            default_front_group_name = {name=""}
+            combo:clear_control_items()
+            combo:set_control_text("")
+            pyio.save_values("front_group_names", front_group_names)
+            pyio.save_values("default_front_group_name", default_front_group_name)
+            clear_names_btn:enable_control(false)
+        end
+    end)
+    
+    if #front_group_names < 1 then
+        clear_names_btn:enable_control(false)
+    else
+        clear_names_btn:enable_control(true)
+    end
 end
 
 ---@see opens a dialog to select a name to be selected

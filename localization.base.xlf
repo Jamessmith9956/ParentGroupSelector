@@ -16,6 +16,11 @@
         <source>Add New Name</source>
       </segment>
     </unit>
+    <unit id="624c936b409b43fd">
+      <segment>
+        <source>Clear Names</source>
+      </segment>
+    </unit>
     <unit id="5b6a80cdda5c140f">
       <segment>
         <source>Add New Front Group Name</source>
@@ -26,14 +31,39 @@
         <source>Enter new front group name:</source>
       </segment>
     </unit>
-    <unit id="1e60d4c5074f7115">
+    <unit id="534196af2bd07d28">
       <segment>
-        <source>select front groups by name</source>
+        <source>Clear Front Group Names</source>
       </segment>
     </unit>
-    <unit id="2dab3e79dbf07970">
+    <unit id="05efd86623e83f97">
       <segment>
-        <source>Get Parent Group</source>
+        <source>Are you sure you want to permanently clear all front names from the front groups part selector/filter ?</source>
+      </segment>
+    </unit>
+    <unit id="243ca8942ded6064">
+      <segment>
+        <source>Select Fronts by Name</source>
+      </segment>
+    </unit>
+    <unit id="0d16fb83375b4f96">
+      <segment>
+        <source>Select Group</source>
+      </segment>
+    </unit>
+    <unit id="54283049904db990">
+      <segment>
+        <source>Get name from Part</source>
+      </segment>
+    </unit>
+    <unit id="551b9977544befd7">
+      <segment>
+        <source>Select a part to get its name</source>
+      </segment>
+    </unit>
+    <unit id="2f027272f0d8df64">
+      <segment>
+        <source>Selected part has no name set.</source>
       </segment>
     </unit>
   </file>
