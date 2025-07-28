@@ -7,7 +7,7 @@ Adds one generator:
 
 
 ## Parent Group Selector
-
+![Select Part by Parent Group](SelectParentDemo.gif)
 
 ## Part Name Selector
 ![Select Part by Part Name](Part_name_selector.gif)
